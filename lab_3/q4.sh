@@ -3,10 +3,11 @@
 echo "Enter a number to test. "
 read number
 
-if (( number % 2 == 0 )); then
+if [ $((number%2)) == 0 ]
+then
     echo "$number is an even number."
     exit 0
-else
+else    
     echo "$number is an odd number."
     exit 0
 fi
