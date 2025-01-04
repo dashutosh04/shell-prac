@@ -50,7 +50,6 @@ cd lab_1
 2. Make the script executable (if not already):
 ```bash
 chmod +x script_name.sh
-Execute the script:
 ```
 3. Execute the script:
 ```bash
