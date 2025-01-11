@@ -2,7 +2,6 @@
 
 #  Write a shell program to find greatest among three numbers #
 
-
 echo "Enter first number. "
 read a
 
@@ -25,4 +24,3 @@ fi
 echo "The greatest number is $c."
 
 exit 0
-
