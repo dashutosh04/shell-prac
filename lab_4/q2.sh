@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# Write a script for arithemetic calculator using command line arguiments.
-
+# Write a script for arithemetic calculator using command line arguments.
