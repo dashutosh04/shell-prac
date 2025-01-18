@@ -2,9 +2,9 @@
 
 # Write a shell script to reverse an array.
 
-echo "Enter the size of the array: "
+echo "Size of array : "
 read n
-echo "Enter the elements of the array: "
+echo "Enter elements : "
 
 for ((i = 0; i < n; i++)); do
     read arr[$i]

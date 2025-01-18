@@ -2,9 +2,9 @@
 
 # Write a shell script to check palindrome of array.
 
-echo "Enter the size of the array: "
+echo "Size of array : "
 read n
-echo "Enter the elements of the array: "
+echo "Enter elements : "
 
 for ((i = 0; i < n; i++)); do
     read arr[$i]
@@ -20,7 +20,7 @@ for ((i = 0; i < n / 2; i++)); do
 done
 
 if [ $flag -eq 1 ]; then
-    echo "The array is a palindrome."
+    echo "Palindrome."
 else
-    echo "The array is not a palindrome."
+    echo "Not a palindrome."
 fi

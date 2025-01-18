@@ -2,9 +2,9 @@
 
 # Write a shell script to count the frequency of each element in an array.
 
-echo "Enter the size of the array: "
+echo "Size of array : "
 read n
-echo "Enter the elements of the array: "
+echo "Enter elements : "
 
 for ((i = 0; i < n; i++)); do
     read arr[$i]
@@ -20,7 +20,7 @@ for ((i = 0; i < n; i++)); do
     fi
 done
 
-echo "The frequency of each element in the array is: "
+echo "Frequency: "
 
 for key in "${!freq[@]}"; do
     echo "$key: ${freq[$key]}"

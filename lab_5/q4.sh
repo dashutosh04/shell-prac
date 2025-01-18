@@ -2,9 +2,9 @@
 
 # Write a shell script to find the second largest and second smallest elements in an array.
 
-echo "Enter the size of the array: "
+echo "Size of array : "
 read n
-echo "Enter the elements of the array: "
+echo "Enter elements : "
 
 for ((i = 0; i < n; i++)); do
     read arr[$i]
@@ -20,5 +20,5 @@ for ((i = 0; i < n; i++)); do
     done
 done
 
-echo "The second largest element in the array is: ${arr[$((n - 2))]}"
-echo "The second smallest element in the array is: ${arr[1]}"
+echo "2nd largest element: ${arr[$((n - 2))]}"
+echo "2nd smallest element: ${arr[1]}"
