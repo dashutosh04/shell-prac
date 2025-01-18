@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Write a shell script  that implements a calculator with a menu-driven interface using a case statment
+# Write a shell script  that implements a calculator.
 # Includes Addition ,Subtraction, Multiplication, Division, HCF and LCM
 
 echo "Enter the first number: "
