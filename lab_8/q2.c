@@ -1,3 +1,5 @@
+/*2. Write a program where a process waits for all its child processes*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
